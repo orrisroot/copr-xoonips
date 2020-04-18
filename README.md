@@ -23,6 +23,16 @@ $ sudo dnf install xoonips-utils
 ```
 
 ## Providing Packages
+* xlhtml : [![Copr build status](https://copr.fedorainfracloud.org/coprs/orrisroot/xoonips/package/xlhtml/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/orrisroot/xoonips/package/xlhtml/)
+  * epel-7-x86_64
+    * xlhtml-0.5.1.p1-2.el7.ors.src.rpm
+    * xlhtml-0.5.1.p1-2.el7.ors.x86_64.rpm
+    * xlhtml-debuginfo-0.5.1.p1-2.el7.ors.x86_64.rpm
+  * epel-8-x86_64
+    * xlhtml-0.5.1.p1-2.el8.ors.src.rpm
+    * xlhtml-0.5.1.p1-2.el8.ors.x86_64.rpm
+    * xlhtml-debuginfo-0.5.1.p1-2.el8.ors.x86_64.rpm
+    * xlhtml-debugsource-0.5.1.p1-2.el8.ors.x86_64.rpm	
 * wv : [![Copr build status](https://copr.fedorainfracloud.org/coprs/orrisroot/xoonips/package/wv/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/orrisroot/xoonips/package/wv/)
   * epel-7-x86_64
     * wv-1.2.9-21.1.el7.ors.src.rpm
@@ -33,4 +43,5 @@ $ sudo dnf install xoonips-utils
     * wv-1.2.9-21.1.el8.ors.src.rpm
     * wv-1.2.9-21.1.el8.ors.x86_64.rpm
     * wv-debuginfo-1.2.9-21.1.el8.ors.x86_64.rpm
+    * wv-debugsource-1.2.9-21.1.el8.ors.x86_64.rpm
     * wv-devel-1.2.9-21.1.el8.ors.x86_64.rpm

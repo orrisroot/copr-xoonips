@@ -20,8 +20,9 @@ $ sudo yum install xoonips-support
 ```
 $ sudo dnf install epel-release
 $ sudo dnf install dnf-plugins-core
+$ sudo dnf config-manager --set-enabled PowerTools
 $ sudo dnf install https://rpms.remirepo.net/enterprise/remi-release-8.rpm
-$ sudo dnf module enable php:remi73
+$ sudo dnf module enable php:remi-7.3
 $ sudo dnf copr enable orrisroot/xoonips-support
 $ sudo dnf install xoonips-support
 ```
@@ -29,11 +30,11 @@ $ sudo dnf install xoonips-support
 ## Providing Packages
 * xoonips-support : [![Copr build status](https://copr.fedorainfracloud.org/coprs/orrisroot/xoonips-support/package/xoonips-support/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/orrisroot/xoonips-support/package/xoonips-support/)
   * epel-7-x86_64
-    * xoonips-support-0.0.1-1.el7.ors.src.rpm
     * xoonips-support-0.0.1-1.el7.ors.noarch.rpm
+    * xoonips-support-0.0.1-1.el7.ors.src.rpm
   * epel-8-x86_64
-    * xoonips-support-0.0.1-1.el8.ors.src.rpm
     * xoonips-support-0.0.1-1.el8.ors.noarch.rpm
+    * xoonips-support-0.0.1-1.el8.ors.src.rpm
 * xlhtml : [![Copr build status](https://copr.fedorainfracloud.org/coprs/orrisroot/xoonips-support/package/xlhtml/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/orrisroot/xoonips-support/package/xlhtml/)
   * epel-7-x86_64
     * xlhtml-0.5.1.p1-2.el7.ors.src.rpm
